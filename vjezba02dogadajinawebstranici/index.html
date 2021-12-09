@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="naslov">JavaScript program</h1>
+
+    <h3>Zadatak - aktiviraj događaje</h3>
+
+    <p>1. izradi program koji će pritiskom na gumb Datum i vrijeme 
+        ispisati trenutačno vrijeme i datum na web stranicu.
+        Koristi ugrađenu JavaScript funkciju Date();
+    </p>
+
+    <p>2. pritiskom na gumb Promijeni naslos dohvati glavni h1 element na web stranici i promijeni
+        tekst glavnog naslova na ovoj web stranici
+    </p>
+
+    <hr>
+
+
+
+    <h3>Rješenje</h3>
+
+
+    <input type="button" value="Datum i vrijeme" onclick="datum();" />
+
+    <input type="button" value="Promijeni naslov!" onclick="naslov();" />
+
+    <p id="unos"></p> <!--Ovaj paragraf nam služi za prikaz datuma i vremena-->
+
+
+    <script src="script.js"></script>
+</body>
+</html>
